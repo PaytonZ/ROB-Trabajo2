@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 
@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-     <title>Sensores de Aparcamiento - Robótica - Facultad de Informática - Universidad Complutense de Madrid</title>
+    <title>Sensores de Aparcamiento - Robótica - Facultad de Informática - Universidad Complutense de Madrid</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -25,110 +25,148 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-    <!-- Navigation -->
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <!-- Navigation -->
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Sensores de Aparcamiento</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="ultrasonidos.html">Ultrasónicos</a>
+                        </li>
+                        <li>
+                            <a href="electromagnetico.html">Electromagnéticos</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- Page Content -->
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Sensores de Aparcamiento</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active">
-                        <a href="ultrasonidos.html">Ultrasónicos</a>
-                    </li>
-                    <li>
-                        <a href="electromagnetico.html">Electromagnéticos</a>
-                    </li>
-  
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
 
-    <!-- Page Content -->
-    <div class="container">
-
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Full Width Page
-                    <small>Subheading</small>
-                </h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Página Principal</a>
-                    </li>
-                    <li class="active">Sensores ultrasónicos</li>
-                </ol>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Content Row -->
-        <div class="row">
-            <div class="col-lg-12">
-                <p>
-
-
-                        El ultrasonido es una onda acústica de muy alta frecuencia (+ 20kHz) , por encima de rango de frecuencias del oído humano. Los murciélagos utilizan ecolocalización ( un radar ultrasónico biológico ) con ondas de 200kHz , muy lejos de las capacidades del oído humano.
-
-                      </p>
-                      <p>
-                          <img src="images/ultrasonic_intro_image1.png" style="float:left"/>
-
-                          Los ultrasonidos tienen varias características que los hacen especialmente útiles 
-<ul>
-
-<li>Son inaudibles para el ser humano , y por lo tanto indetectables para el usuario.</li>
-<li>Las ondas pueden ser producidas de forma direccional </li>
-<li>Menor velocidad de propagación que la luz o las ondas de radio </li>
-
-
-Los ultrasonidos viajan en el aire alrededor de 340 m/s , como otros sonidos.
-El tiempo que tarda una onda de ultrasonido en viajar 10 centímetros es aproximadamente 3ms , al contrario que 3.3ns que tarda la luz o las ondas de radio. Esto permite que se pueda medir utilizando procesamiento lento de señal.
-
-
-            </p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
+            <!-- Page Heading/Breadcrumbs -->
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <h1 class="page-header">Sensores de Aparcamiento
+                        <small>Mediante Ultrasonidos</small>
+                    </h1>
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Página Principal</a>
+                        </li>
+                        <li class="active">Sensores ultrasónicos</li>
+                    </ol>
                 </div>
             </div>
-        </footer>
+            <!-- /.row -->
+            <!-- Content Row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <p style="margin:5px;">
+                       El ultrasonido es una onda acústica de muy alta frecuencia (+ 20kHz) , por encima de rango de frecuencias del oído humano. Los murciélagos utilizan ecolocalización ( un radar ultrasónico biológico ) con ondas de 200kHz , muy lejos de las capacidades del oído humano.
+                    </p>
+                    <br>
+                    <br>
+                    <div class="col-lg-12">
+                        <div id="imagen1" class="col-xs-6">
+                         <img src="images/ultrasonic_intro_image1.png"/>
 
-    </div>
-    <!-- /.container -->
+                         <p>  
+                         <br>      
+                            <b>Ventajas : </b> 
+                            <br>
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-check-square"></i>Te indican por qué lado se encuentra el obstáculo</li>
+                                <li><i class="fa-li fa fa-check-square"></i>Tienen un rango de detección mayor que el electromagnético</li>
+                            </ul>
+                            <b>Desventajas : </b> 
+                            <br>
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-close"></i>Deben mantenerse los sensores limpios de barro , nieve ,etc ... para que sean eficaces </li>
+                                <li><i class="fa-li fa fa-close"></i>Tienen ángulos muertos de medición y hay superficies con las que no funcionan bien ( arbustos , vallas , etc ) </li>
+                            </ul>
+                        </p>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+                    </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 
-</body>
+                    <div class="col-xs-6">
+                      <div id="texto1" style="margin-bottom:117px;">
+                      Los ultrasonidos tienen varias características que los hacen especialmente  <b>útiles: </b>
+                      <br>
+                      <ul class="fa-ul">
 
-</html>
+                        <li><i class="fa-li fa fa-square"></i>Son inaudibles para el ser humano , y por lo tanto indetectables para el usuario.</li>
+                        <li><i class="fa-li fa fa-square"></i>Las ondas pueden ser producidas de forma direccional </li>
+                        <li><i class="fa-li fa fa-square"></i>Menor velocidad de propagación que la luz o las ondas de radio </li>
+                    </ul>
+                    <p>
+                        Los ultrasonidos viajan en el aire alrededor de 340 m/s , como otros sonidos. <br>
+                        El tiempo que tarda una onda de ultrasonido en viajar 10 centímetros es aproximadamente 3ms , al contrario que 3.3ns que tarda la luz o las ondas de radio. Esto permite que se pueda medir utilizando procesamiento lento de señal.
+                    </p>
+                    </div>
+
+                    <img src="images/ultrasonic_2.png"/>
+
+                </div>
+
+                <div class="col-md-12">
+                    <h2> Vídeos relacionados </h2>
+                    <iframe width="853" height="480" src="http://www.youtube-nocookie.com/embed/b_m8DqTlOLE?rel=0" frameborder="0" allowfullscreen></iframe>
+                    <iframe  width="853" height="480" src="http://www.youtube-nocookie.com/embed/M85HEPr3mh0?rel=0" frameborder="0" allowfullscreen></iframe>
+
+                    <h2> Links para obtener más información </h2>
+
+                        <a href="http://www.newelectronics.co.uk/electronics-technology/an-introduction-to-ultrasonic-sensors-for-vehicle-parking/24966/"> Introducción a los sensores ultrasónicos para el aparcamiento [ En inglés ] </a> 
+                        <br>
+                        <a href="http://es.wikipedia.org/wiki/Asistente_de_aparcamiento#Sistemas_basados_en_ultrasonidos"> Wikipedia - Sistemas basados en ultrasonidos </a>
+
+                        <br>
+
+                </div>
+            </div>
+            <!-- /.row -->
+
+            <hr>
+
+            <!-- Footer -->
+            <footer>
+                <div class="row">
+                    <div class="col-lg-12">
+                     <p>Licencia Apache 2.0 - Sensores de Aparcamiento - Robótica 2014/2015 - Universidad Complutense de Madrid</p>
+                 </div>
+             </div>
+         </footer>
+
+     </div>
+     <!-- /.container -->
+
+     <!-- jQuery -->
+     <script src="js/jquery.js"></script>
+
+     <!-- Bootstrap Core JavaScript -->
+     <script src="js/bootstrap.min.js"></script>
+
+ </body>
+
+ </html>

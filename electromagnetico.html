@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>Sensores de Aparcamiento - Robótica - Facultad de Informática - Universidad Complutense de Madrid</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -25,87 +25,158 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-    <!-- Navigation -->
-     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Sensores de Aparcamiento</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li >
+                            <a href="ultrasonidos.html">Ultrasónicos</a>
+                        </li>
+                        <li class="active">
+                            <a href="electromagnetico.html">Electromagnéticos</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- Page Content -->
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Sensores de Aparcamiento</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li >
-                        <a href="ultrasonidos.html">Ultrasónicos</a>
-                    </li>
-                    <li class="active">
-                        <a href="electromagnetico.html">Electromagnéticos</a>
-                    </li>
-  
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
 
-    <!-- Page Content -->
-    <div class="container">
-
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Full Width Page
-                    <small>Subheading</small>
-                </h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li class="active">Full Width Page</li>
-                </ol>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Content Row -->
-        <div class="row">
-            <div class="col-lg-12">
-                <p>Most of Start Bootstrap's unstyled templates can be directly integrated into the Modern Business template. You can view all of our unstyled templates on our website at <a href="http://startbootstrap.com/template-categories/unstyled">http://startbootstrap.com/template-categories/unstyled</a>.</p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
+            <!-- Page Heading/Breadcrumbs -->
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <h1 class="page-header">Sensores de Aparcamiento
+                        <small>Mediante Electromagnetismo</small>
+                    </h1>
+                   <ol class="breadcrumb">
+                        <li><a href="index.html">Página Principal</a>
+                        </li>
+                        <li class="active">Sensores electromagnéticos</li>
+                    </ol>
                 </div>
             </div>
-        </footer>
+            <!-- /.row -->
+
+            <!-- Content Row -->
+            <div class="row">
+                <div class="col-lg-12">
+                 <p> 
+                     Los sensores electromagnéticos están
+                     basados en la variación de un campo magnético o de un campo eléctrico sin
+                     modificar la inductancia o la capacidad.
+                     <br>
+                 </p>
+                 <div class="col-xs-6">
+                    Se pueden clasificar en:
+                    <ul class="fa-ul">
+                        <br>
+                        <li><i class="fa-li fa fa-square"></i>Sensores basados en la <b>ley de Faraday</b>  </li>
+
+                        Su funcionamiento está basado en el mismo
+                        principio físico que los generadores de
+                        corriente alterna. Los más utilizados están
+                        constituidos por un rotor de imanes
+                        permanentes y una bobina de N espiras en el
+                        estator. 
+                        <br>
+                        <li> <i class="fa-li fa fa-square"></i>Sensores basados en el <b>efecto Hall</b>  </li>
+
+                        Si un conductor o un semiconductor a través del cual circula una corriente se somete
+                        a un campo magnético perpendicular a la misma, se genera una tensión o diferencia
+                        de potencial VH (tensión de Hall) transversal, cuyo sentido se invierte al hacerlo el
+                        sentido del campo magnético o el de la corriente. 
+                    </ul>
+                    <br>
+                    <img src="images/electromagnetic_1.png"/>
+                </div>
+                <div class="col-xs-6">
+
+                    <img width="40%" height="50%" src="images/electromagnetic_2.png"/>
+                  
+                   <img width="50%" height="50%" src="images/electromagnetic_3.png"/>
+                   
+
+                   <br> <br>
+
+                   Se instalan de 2-4 sensores para generar un campo electromagnético que detecta objectos que entren en el radio del campo.
+
+
+
+                   <br>      
+                   <b>Ventajas : </b> 
+                   <br>
+                   <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-check-square"></i>Su instalación suele ser bastante discreta</li>
+                    <li><i class="fa-li fa fa-check-square"></i>No suelen tener ángulos muertos</li>
+                </ul>
+                <b>Desventajas : </b> 
+                <br>
+                <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-close"></i>No avisan el lado por el que se acerca el obstáculo </li>
+                    <li><i class="fa-li fa fa-close"></i>El agua, en exceso , puede afectar a la correcta detección </li>
+                </ul>
+            </p>
+        </div>
+         <div class="col-md-12">
+                    <h2> Vídeos relacionados </h2>
+                   <iframe width="853" height="480" src="http://www.youtube-nocookie.com/embed/DfqR2wV6kik?rel=0" frameborder="0" allowfullscreen></iframe>
+                    <iframe  width="853" height="480" src="http://www.youtube-nocookie.com/embed/M85HEPr3mh0?rel=0" frameborder="0" allowfullscreen></iframe>
+
+                    <h2> Links para obtener más información </h2>
+
+                        <a href="http://libroweb.alfaomega.com.mx/catalogo/automatasprogramables/libreacceso/libreacceso/reflector/ovas_statics/sensores/temas/SA_TEMA_08-ELECTROMAGNETISMO.pdf"> Universidad de Vigo - Sensores Electromagnéticos [ PDF ] </a> 
+                        <br>
+                        <a href="http://es.wikipedia.org/wiki/Interacci%C3%B3n_electromagn%C3%A9tica"> Wikipedia - Interacción electromagnética </a>
+
+                        <br>
+
+                </div>
 
     </div>
-    <!-- /.container -->
+</div>
+<!-- /.row -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+<hr>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+<!-- Footer -->
+<footer>
+    <div class="row">
+        <div class="col-lg-12">
+           <p>Licencia Apache 2.0 - Sensores de Aparcamiento - Robótica 2014/2015 - Universidad Complutense de Madrid</p>
+       </div>
+   </div>
+</footer>
+
+</div>
+<!-- /.container -->
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 
